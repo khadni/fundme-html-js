@@ -15,4 +15,4 @@ Basic web3 interactions with a [fund me contract type](https://github.com/khadni
 ### Contract deployment / hosting
 
 - Contract is deployed on Rinkeby Testnet @ 0xa4DCEdC078EB86f0Ac6efbAea5B9bb2C77e398C0 ([see on rinkeby exlporer](https://rinkeby.etherscan.io/address/0xa4DCEdC078EB86f0Ac6efbAea5B9bb2C77e398C0)).
-- website is deployed on github at https://khadni.github.io/fundme-html-js/.
+- website is deployed on Netlify at https://62bde592740ce9537709426b--glittering-unicorn-941e93.netlify.app/.
