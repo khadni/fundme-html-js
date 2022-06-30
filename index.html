@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>KH - web3 basic interactions with MetaMask</title>
+  </head>
+  <body>
+    <script src="./index.js" type="module"></script>
+    <div class="bg-white">
+      <div
+        class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8"
+      >
+        <h2 class="font-extrabold tracking-tight text-gray-900">
+          <span class="block text-4xl sm:text-5xl">Ready to dive in?</span>
+          <span class="block text-3xl sm:text-4xl"
+            >Start your web3 experience now.</span
+          >
+        </h2>
+        <h3
+          class="mt-12 text-2xl font-extrabold tracking-tight text-gray-900 sm:text-2xl"
+        >
+          1. Connect with MetaMask
+        </h3>
+        <div class="mt-4 flex-row justify-center">
+          <div class="inline-flex rounded-md shadow">
+            <button
+              id="connectBtn"
+              class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
+            >
+              Connect
+            </button>
+          </div>
+          <p id="accountText" class="mt-2"></p>
+        </div>
+        <h3
+          class="mt-12 text-2xl font-extrabold tracking-tight text-gray-900 sm:text-2xl"
+        >
+          2. Fund the contract
+        </h3>
+        <div class="mt-4 flex justify-center">
+          <div>
+            <input
+              type="text"
+              id="ethAmount"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-indigo-500 focus:border-indigo-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 py-4"
+              placeholder="Amount in ETH..."
+              required
+            />
+          </div>
+          <div class="ml-3 inline-flex">
+            <button
+              id="fundBtn"
+              class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-400 hover:bg-indigo-500"
+            >
+              Fund the contract
+            </button>
+          </div>
+        </div>
+        <p id="hashTxt" class="mt-2"></p>
+        <p id="hashTxtBis" class="mt-2"></p>
+        <p id="hashTxtTer" class="mt-2 text-blue-700 cursor-pointer"></p>
+        <h3
+          class="mt-12 text-2xl font-extrabold tracking-tight text-gray-900 sm:text-2xl"
+        >
+          3. Funds withdrawal and balance (owner only)
+        </h3>
+        <div class="mt-4 flex justify-center">
+          <div class="ml-3 inline-flex">
+            <button
+              id="withdrawBtn"
+              class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200"
+            >
+              Withdraw
+            </button>
+          </div>
+          <div class="ml-3 inline-flex">
+            <button
+              id="balanceBtn"
+              class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200"
+            >
+              Get Balance
+            </button>
+          </div>
+        </div>
+        <p id="balanceTxt" class="mt-2"></p>
+      </div>
+    </div>
+  </body>
+</html>
