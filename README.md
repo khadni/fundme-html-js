@@ -10,7 +10,7 @@ Basic web3 interactions with a [fund me contract type](https://github.com/khadni
 ### Built With
 
 - Solidity, compiling and deploying with hardhat
-- Front-end basic interactions (connect, fund, get balance, withdraw) with etherjs
+- Front-end basic interactions (connect, fund, get balance, withdraw) with ethersjs
 
 ### Contract deployment / hosting
 
